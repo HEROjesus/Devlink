@@ -1,0 +1,27 @@
+@import url(../index.css);
+
+.list{
+    list-style: none;
+    width: 588px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--stroke-color-dark-mode); 
+    min-width: 50%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: all 1s;
+}
+.box:hover{
+    background-color: var(--surface-color-dark-mode-hover);
+    border: solid 3px var(--highlight-color-dark-mode);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--text-color-dark-mode);
+}
